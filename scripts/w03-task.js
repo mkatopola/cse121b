@@ -5,27 +5,23 @@
 function add (number1, number2) {
     return number1 + number2;
 }
-
 function addNumbers (){
     let addNumber1 = Number(document.querySelector("#add1").value);
     let addNumber2 = Number(document.querySelector("#add2").value);
     document.querySelector("#sum").value = add(addNumber1, addNumber2);
 }
-
 document.querySelector("#addNumbers").addEventListener("click", addNumbers);
+
 /* Function Expression - Subtract Numbers */
-function Subtract (number1, number2) {
+let subtract = function (number1, number2) {
     return number1 - number2;
 }
-
-function subtractNumbers (){
+let subtractNumbers = function (){
     let subtractNumber1 = Number(document.querySelector("#subtract1").value);
     let subtractNumber2 = Number(document.querySelector("#subtract2").value);
-    document.querySelector("#difference").value = Subtract(subtractNumber1, subtractNumber2);
+    document.querySelector("#difference").value = subtract(subtractNumber1, subtractNumber2);
 }
-
 document.querySelector("#subtractNumbers").addEventListener("click", subtractNumbers);
-
 
 /* Arrow Function - Multiply Numbers */
 let multiply = (number1, number2) => number1 * number2;
@@ -65,8 +61,6 @@ getTotal.addEventListener("click", function() {
     // Output the total to the "total" span with two decimals
     document.querySelector("#total").textContent = `$${subtotal.toFixed(2)}`;
 });
-
-
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
