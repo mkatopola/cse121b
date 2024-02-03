@@ -25,18 +25,13 @@ let myProfile = {
 /* Populate Profile Object with placesLive objects */
 myProfile.placesLived.push(
     {
-        place: "Area 33, Lilongwe",
-        length: "4 years",
-    },
-
-    {
-        place: "Sadzi, Zomba",
-        length: "8 years",
-    },
-
-    {
         place: "Nancholi, Blantyre",
         length: "9 years",
+    },
+
+    {
+        place: "Area 33, Lilongwe",
+        length: "4 years",
     },
 
     {
@@ -48,6 +43,12 @@ myProfile.placesLived.push(
         place: "Ndalama, Thyolo",
         length: "1 month",
     },
+
+    {
+        place: "Sadzi, Zomba",
+        length: "1 month",
+    },
+
 );
 
 
