@@ -21,7 +21,7 @@ imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `profile image of ${fullName}`);
 
 /* Step 5 - Array */
-let favoriteFoods = ["Nsima","Fish","Rice","Soup","Steak","Sauce"];
+let favoriteFoods = ["Nsima","Rice","Chips","Nkhwani","Grilled Fish", "Chicken"];
 foodElement.innerHTML = favoriteFoods;
 
 let fav = "Sandwich";
