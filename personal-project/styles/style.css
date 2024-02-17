@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    border: 5px solid blue;
+}
+
+#weather-info{
+    margin: 10px;
+    padding: 25px;
+    text-align:justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid blue;
+    font-family: Arial, sans-serif;
+    color: brown;
+}
+
